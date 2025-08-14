@@ -114,7 +114,7 @@ public class Assigment4_Collection {
 	ProdDetails1.put("Category" , "Electronics");
 	ProdDetails1.put("Price" , "12k Pounds");
 	ProdDetails1.put("Stock Quantity" , "Not Avilable");
-	ProdDetails1.put("Suplier" , "Tech Supplies");
+	ProdDetails1.put("Supplier" , "Tech Supplies");
 	ProdDetails1.put("Warrenty" , "2 Years");
 	ProdDetails1.put("Rating" , "4.5 Stars");
 	ProdDetails1.put("Manufa date" , "Aug 2023");
@@ -128,7 +128,7 @@ public class Assigment4_Collection {
 	ProdDetails2.put("Category" , "Furniture");
 	ProdDetails2.put("Price" , "150k Pounds");
 	ProdDetails2.put("Stock Quantity" , "Two");
-	ProdDetails2.put("Suplier" , "Office Depot");
+	ProdDetails2.put("Supplier" , "Office Depot");
 	ProdDetails2.put("Warrenty" , "1 Years");
 	ProdDetails2.put("Rating" , "4 Stars");
 	ProdDetails2.put("Manufa date" , "Sep 2024");
@@ -142,7 +142,7 @@ public class Assigment4_Collection {
 	ProdDetails3.put("Category" , "Kitchen");
 	ProdDetails3.put("Price" , "75k Pounds");
 	ProdDetails3.put("Stock Quantity" , "Two Hundered");
-	ProdDetails3.put("Suplier" , "Kitchen world");
+	ProdDetails3.put("Supplier" , "Kitchen world");
 	ProdDetails3.put("Warrenty" , "6 months");
 	ProdDetails3.put("Rating" , "4.2 Stars");
 	ProdDetails3.put("Manufa date" , "Jan 2025");
