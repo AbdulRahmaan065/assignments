@@ -13,7 +13,7 @@ public class Assignment5_ConditionalStatement {
 	int     creditScore = 720;
 	double  income = 55000.0;
 	boolean isEmployed = true;
-	double  debtToIncomeRatio = 35.0;
+	double debtToIncomeRatio = 45.0; // Debt-to-Income ratio in percentage
 	    
 	    
 System.out.println("Loan Evaluation Result \n" +"custer name = " +customerName );   
@@ -41,22 +41,32 @@ System.out.println("Loan Evaluation Result \n" +"custer name = " +customerName )
 						
 						
 						
-						if (debtToIncomeRatio> 40.0) {
+						if (debtToIncomeRatio< 40.0) {
 							System.out.println("Loan Approved: Meets all criteria.");
 						}
 							else {
 							System.out.println("Loan Denied: Debt-to-Income ratio is too high.");
 							}
 						
+					} else {
+						// If the customer is unemployed, deny the loan
+						System.out.println("Loan Denied: Customer is not employed.");
+					}
+				} else {
+					// If income is less than $50,000, deny the loan
+					System.out.println("Loan Denied: Income is less than required.");
+				}
+			} else {
+				// If credit score is below 650, deny the loan
+				System.out.println("Loan Denied: Credit score is too low.");
 				}
 				
 		}
 	
 		
 	
-}
+
 		
 	
 	}
-}
 
